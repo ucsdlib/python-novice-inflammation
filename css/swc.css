@@ -25,7 +25,10 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 h2 code, h3 code, h4 code, h5 code, h6 code {
     font-size: inherit;
 }
-
+/* hides challeges */
+section.challenge.panel.panel-success {
+    display: none;
+}
 /* Objectives, Callout Box, Challenges and prerequisites are now rendered as
 Bootstrap panels.  There's a pandoc error with rendering headers nested under
 blockquote: these headers don't preserve attributes.  It means we have to
